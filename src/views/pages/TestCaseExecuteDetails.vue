@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { BrowseIcon } from 'tdesign-icons-vue-next';
+import { BrowseIcon, CheckCircleFilledIcon } from 'tdesign-icons-vue-next';
 
 const img = 'https://raw.githubusercontent.com/geekmister/geekmister/master/images/cover-drawing-en.png';
 </script>
@@ -42,7 +42,7 @@ const img = 'https://raw.githubusercontent.com/geekmister/geekmister/master/imag
           </tr>
           <tr>
             <td class="tced-page-summary-area-info-label-td-container tced-page-summary-area-info-td">执行结果</td>
-            <td class="tced-page-summary-area-info-value-td-container tced-page-summary-area-info-td">成功 <t-icon name="check-circle-filled" /></td>
+            <td class="tced-page-summary-area-info-value-td-container tced-page-summary-area-info-td">成功 <CheckCircleFilledIcon /></td>
           </tr>
           <tr>
             <td class="tced-page-summary-area-info-label-td-container tced-page-summary-area-info-td">日志下载</td>
